@@ -18,8 +18,7 @@ namespace MarsRover
             _compassPoints = new LinkedList<string>(_compass);
         }
 
-
-        public void RoboticRoversDirection(Location location, string roadMap)
+        public void RoboticRo0versDirection(Location location, string roadMap)
         {
             for (int i = 0; i < roadMap.Length; i++)
             {
